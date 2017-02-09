@@ -1,9 +1,23 @@
-.call()
-.apply()
+ Q: What does apply() do
+// A: it is a function method, it's called on a function, and it takes 'this' on which the function will be called, followed by the arguments as an array for the function on which it's called. It solves the 'this' issue.
+// What does bind() do
 
+ Q: Explain what the js "map" /*function*/ does provide an example
+// A: the map method on the array prototype, takes a function the parameter of which is usually an element of the array at a time, and it runs the func on every element, and returns a new array with all the returned values
+
+Q: Bind
+//creates an another func = function.bind(this) 
+// whenever it's called, the "this" context is constant
+var boundGetX = retrieveX.bind(module);
+boundGetX(); 
+
+
+
+.call() //function.call(this, arguments)
+.apply() //function.call(this, argumentsArray)
+.bind() //function.bind(this) returns new function with this bound so no matter which context it's called in, this will refer to the same thing consistently
 
 //new ES6: .from(), .of(), .findIndex(), .find(), .fill()
-
 
 .map() 	 // takes a function, performs it on each element, and returns a new array
 

@@ -1,5 +1,6 @@
 //Tricks
 
+//initialize an array as an instance of the array class new Array() or the literal syntax []
 //if uncertain number of arguments
 var args = Array.prototype.slice.call(arguments)
 

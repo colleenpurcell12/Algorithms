@@ -1,0 +1,52 @@
+**** PRACTICAL ****
+
+Columns using Flexbox
+
+	.parent-container{ display: flex }
+	.col{
+		Flex-direction: row // default is a row
+		Align-self: center
+		Flex-grow: 1 
+	}
+Vertical alignment in parent container
+	// Display: table; mode, width: 100%;, and min-height: 1px;
+
+/*NEW box-sizing for universal selector */
+	*{box-sizing: border-box}
+
+/*Columns
+	// Give them width: 40% and 60%
+	// Vertical-align: top (since default can be bottom)*/
+	.col:last-child{ float:right } /*rest float left*/
+
+Sticky footer
+	// to make it stuck to bottom
+	// You can give all the main sections like html, body, main and col the height: 100% so footer will be pushed down
+
+Clearfix
+	// use .group class on parent div
+	 .group::after {content: ‘’; display: table; clear: both} 
+
+Mobile
+	Stack Columns
+		.col {
+			display: block
+			width: initial
+			height: initial
+			margin: initial
+		}
+	Hide banner 
+		.hide-mobile { display: none}
+
+Overflow
+	//values hidden 
+
+If parent Position is Relative
+	// offset child with top offset, bottom offset, rightL offset
+
+
+/*TRICKS
+//Cant add margin on non-floated to distance away from floated (paragraph wont separate from floated image)
+
+
+
