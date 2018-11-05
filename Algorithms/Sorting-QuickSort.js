@@ -18,7 +18,7 @@
 // pivot is 1st element
 function quickSort(arr) { 
     if(arr.length < 1){return []} //terminating condition
-	  var p = arr[0]
+	var p = arr[0]
     var left=[]
     var right=[]
     for(var i = 1; i<arr.length; i++){

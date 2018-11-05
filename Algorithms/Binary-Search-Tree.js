@@ -31,6 +31,7 @@ BTree.prototype.add = function(data){
 	var node = new Node(data)
 	this.length += 1
 	if(this.root === null){ return this.root = node}
+		
 	var currentNode = this.root
 	var parentNode = null
 	while(currentNode){

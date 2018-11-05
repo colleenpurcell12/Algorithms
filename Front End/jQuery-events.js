@@ -1,4 +1,4 @@
- 
+   
   .hover(onFuncHandler, offFuncHandler) //combo of .mouseover() .mouseout()
   .onclick(func)
   .on(event, data, function)

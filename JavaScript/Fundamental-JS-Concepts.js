@@ -1,4 +1,15 @@
-//Fundamental JS Concepts: JavaScript High level questions
+ //Fundamental JS Concepts: JavaScript High level questions
+
+
+First Class Functions:
+	// Characteristics- 
+			// be typeof===objects
+			// instance of a 	constructor, 
+			// stored as variable, 
+			// functions can be returned by functions, 
+			// passed in as parameters, 
+	// example of function as a parameter is the map() method that takes a function
+
 
 SCOPE, CLOSURE, HOISTING, STRICT mode, PARADIGMS, FUNCTIONAL PROGRAMMING, OBJECT ORIENTED PROGRAMNING
 
@@ -6,7 +17,7 @@ SCOPE, CLOSURE, HOISTING, STRICT mode, PARADIGMS, FUNCTIONAL PROGRAMMING, OBJECT
 
  Scope
 	// it's the context of a variable declaration, the global scope of the window, or within a function of layer of functions.
-	// Never touch /*global*/ scope because you might override pre-existing variables by declaring one with a duplicate name
+	// Should never touch /*global*/ scope because you might override pre-existing variables by declaring one with a duplicate name
 
  Closure
 	// a function defined inside another extenal/parent function that has access to varaibles from the parent's scope
@@ -59,11 +70,4 @@ Declarative vs Imperative
 // When it comes to inheritance, JavaScript only has one construct: objects. Each object has an internal link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. null, by definition, has no prototype, and acts as the final link in this prototype chain.
 
 
- First Class Functions:
-	// Characteristics- 
-			// be typeof===objects
-			// instance of a 	constructor, 
-			// stored as variable, 
-			// functions can be returned by functions, 
-			// passed in as parameters, 
-	// example of function as a parameter is the map() method that takes a function
+ 

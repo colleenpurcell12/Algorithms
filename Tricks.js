@@ -16,6 +16,7 @@ var args = Array.prototype.slice.call(arguments)
 // eval() and delete()
 
 // undefined v not defined, former has a declaration of the variable
+// Null is an assignment value, Undefined, on the other hand, represents that a variable has been declared but there is no value associated with it
 // typeof null === "Object"
 // Order of evaluation: formulas with multiple =, are evaluated right to left
 // This and self: self. within a object's method, refers to the obj and hence can access the other properties of it's self

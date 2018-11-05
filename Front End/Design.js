@@ -11,10 +11,10 @@ SPACING
 // Key spatial relationships include consistency in spacing, which creates a focal point with a "lack of elements"
 
 Simple Navigation /*with*/ Hamburger Menus (stacked lines that expand)
-//Removing a busy navigation makes the experience cleaner and distraction free. 
+// Removing a busy navigation makes the experience cleaner and distraction free. 
 // keep navigational menus to a minimum, directional arrows for returning to a list from a entry page, make it clear where a user is on the site at any point and how to go back or home
 
-About Us” page
+About Us page
 //photos of your team and a short company biography, testimonials, and success stories.
 
 Contact Information
@@ -34,7 +34,7 @@ Button styling
 
 Great /*images*/: Large/Responsive Hero Images and Giant Product Images
 // draw and entice users, with just a couple of unique photos ou can set yoursite apart
-//scan-friendly
+// scan-friendly
 
 Web Fonts--Unique and Large Typography
 // type it so it's searchable, not as limited on style as were in the past

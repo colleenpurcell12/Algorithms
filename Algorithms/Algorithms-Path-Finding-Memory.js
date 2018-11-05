@@ -8,6 +8,7 @@ var Tree = function(value){
 	newTree.children = []
 	return newTree
 }
+
 //depth first search
 // RECURSIVE DFT, GREAT!
 Tree.prototype.traverse = function(callback){

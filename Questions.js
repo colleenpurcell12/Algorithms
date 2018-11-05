@@ -1,4 +1,16 @@
-Questions.js
+//Interview Qs
+/*
+Given an n by n depth map, find all cavities in the map. A   cavity is a position that has a higher depth than all of its adjacent squares and is not on the edge of the map. 
+
+
+How would organize different levels of hierarchy for the website? That is, how would you show a Math header, multiple subheaders (such as Addition and Subtraction), and multiple subheaders under that (such as Videos and Articles). The levels are not predefined, so there could be things that extend well beyond the Videos sub-subheader. How would one determine how many videos are under a main header or how many other subheaders
+
+design a system to get the number of days between two dates
+
+Given a tree, create a program that moves one node and all of its children to a different parent 
+
+ount the number of leav
+*/
 
 HTTP Questions
 PASS BY VALUE V reference

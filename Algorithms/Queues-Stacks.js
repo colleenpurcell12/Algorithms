@@ -1,5 +1,5 @@
-Queues first in first out (from the front of the line)
-stacks, last in first out (off the top)
+// Queues first in first out (from the front of the line)
+// stacks, last in first out (off the top)
 
 **** Queues ****
 //operations and implementations

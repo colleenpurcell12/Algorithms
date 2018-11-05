@@ -20,6 +20,7 @@ Bubble, selection, intertion, merge sort, quick/partition sort
       } while(len--)
       return data
     }
+    
     function swap(arr, indexA, indexB){
       var temp = arr[indexA]
       arr[indexA]= arr[indexB]

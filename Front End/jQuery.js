@@ -1,70 +1,22 @@
-jQuery
 
-// how to change the style of a DOM element, multiple properties at same time
-// how to select an element by starts with, ends with, contains
-    // as well as inside of/children, after/followed by, and nth element
-// methods on elements 
+//***** Summary of content:
+  // how to change the style of a DOM element, multiple properties at same time
+  // how to select an element by starts with, ends with, contains
+      // as well as inside of/children, after/followed by, and nth element
+  // methods on elements 
+  ///*****
+  
+  //you can use $(this) inside a on click function to get the entire HTML of the clicked 
   
 
-  .value(str)                     // form value
-  .innerHTML("<p>Hi</p>")         // nested HTML
-  .text()                         // cant add tag tho
-  .css({property: "value", ...})  // sets the style, 
-   "text-weight" or textWeight     //dash props need quotes or camel case
-    .css("propertyName")          // gets the css property value
-  .attr("src","file.png")         // sets the attribute of element
-    .attr("src")                  // gets the value of the attribute
-  .hide(300ms)                    // delete, parameter is ms for how long it takes to go away
-  .show(300ms)    
-  .slideUp() .slideDown()  .fadeToggle() .toggle()             
-  .append()   
-  .prepend()
-  .before("<p>Hi</p>")      
-  .after("<p>Hi</p>") 
-  .remove()
-  .replaceWIth()
-  .each(function(index){})    //can iterate over all items in a list for example
-  .text()                    //get text out of element
-  $(this) inside a click funtion
-  .addClass(classStr)
-  .toggleClass(classStr)
-  .removeProp()  
-  .removeAttr()
 
-//Javascript Tutorial For Beginners LearnCode.academy
-  .addEventListenser('click',func)
-  .parentNode
-  this.previousElementSibling
-  input.setSelectionRange(0, input.value.length)
-  this.querySelectorAll()
-  this.querySelector("input")
+// Remove a /*class with*/ this.className = ""
 
-//SELECTORS
-// ^= starts with, used with attribute selectors
-// $= ends with, good for suffices
-// *= contains
-// email^="mailto:" for email addresses
-// x:has(y) targets the x tags with y tags inside it 
-// selects all list items that dont contain the word and
- li:not(:contains(and))
+$("#ID") is the same as document.getElementById("ID")
+$(".class") same as document.getElementByClassName("ID")
 
-
-// TRICK
-// make sure script is at end of body, not in head
-// either wrap everything with window.onload() or with $(document).read(function(){ /*everything*/ }) or $(function(){})
-// If you have the script src="file.js" nested in the head tag, you might get an error if you dont wrap your js file in a window.onload() function, otherwise when you try to .click off of an element before the DOM is loaded it will be null
-
- .value //gives you the currently-set value of a form element (input, select, textarea) 
-
- .innerHTML // builds an HTML string based on the DOM nodes the element contains.
-
-
-// END OF SUMMARY
-
-$("#ID") is the same as document.getElementById("ID);
-$(".class") same as document.getElementByClassName("ID)
-
-document.getElementById("name").value = document.getElementById("name").value.toUpperCase()
+document.getElementById("name").value = 
+  document.getElementById("name").value.toUpperCase()
 
 
 document.getElementById("clear").onclick = function(){

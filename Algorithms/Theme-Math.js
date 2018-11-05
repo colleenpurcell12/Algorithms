@@ -14,7 +14,7 @@ function sum(array) {
 //****
 function Fibonacci(n){
     if(n <= 2) { return 1; } 
-    else {  return Fibonacci(n - 1) + Fibonacci(n - 2);}
+    else { return Fibonacci(n - 1) + Fibonacci(n - 2);}
 };
 
 function productFib(prod){

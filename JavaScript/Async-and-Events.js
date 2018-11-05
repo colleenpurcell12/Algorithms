@@ -15,8 +15,12 @@ Async and Events.js
 // A: instead of putting a event listener on a serious of DOM elements, you can just put one on the parent, and you can figure out which child node was clicked when the event bubbles up to the parent element by checking the event object's TARGET property
 e.target.nodeName, e.target.id
 
+$(document).on('click','button', function(){
+   console.log('works for all future buttons');
+}) 
+
  Q: What is event loop?
-//event handler
+// call stack, task queue for async events, loop adds to stack from queue when empty
 
  q: What is a Call stack?
 // A: mechanism for an interpreter (like the JS interpreter in a web browser) to keep track of its place in a script that calls multiple functions — it tracks what function is currently being run, what functions are called from within that function and should be called next
